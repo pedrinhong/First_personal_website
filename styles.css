@@ -1,0 +1,57 @@
+body {
+    /* background-image: url("enginering.jfif"); */
+    background-color: #557B83;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+img:hover {
+    background-color: #E5EFC1;
+}
+
+input:hover {
+    background-color: #E5EFC1;
+}
+
+textarea:hover {
+    background-color: #E5EFC1;
+}
+
+input {
+    background-color: #658B93;
+}
+
+textarea {
+    background-color: #658B93;
+}
+
+.dotted {
+    height: 3px;
+    border-style: none;
+    border-top: dotted 2px;
+    color: #557B83;
+}
+
+.doubled_hr {
+    border-top: double 3px #E5EFC1;
+    width: 25%;
+}
+
+.in_center {
+    border-top-width: 3px;
+    color: #658B93;
+    width: 10%;
+}
+
+#profile {
+    background-color: #557B83;
+}
+
+#introduction {
+    text-align: center;
+}
+
+#information_body {
+    background-color: #E5EFC1;
+}

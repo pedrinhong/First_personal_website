@@ -1,0 +1,171 @@
+<!-- heading: tags go from h1 to h6. need open and close tags-->
+<!--br: line breaker, doesnt need and close tags. thats the wwhy its called self-closing tag.-->
+<!--ul: stands for unordered list, which means that the elements of the list doesnt have a order in number-->
+<!--ol: stands for ordered list-->
+<!--li: stands for list item, which obviously means that its a tag for each element in the list-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>💢Pedro Nogueira's Personal Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h2 {
+            color: #557B83;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <hr style="border-top: double 3px #E5EFC1; width: 300px;"> -->
+    <div id="profile">
+        <table cellspacing='20'>
+            <tr>
+                <td><img src="me-modified.png" alt="Pedro's Profile Picture" height="300" width="300"></td>
+                <td>
+                    <h1> Pedro Nogueira </h1>
+                    <p><em>Electrical Engineering Student at <strong><a href="https://www.unb.br/"> Universisty of Brasilia </a></strong>.</em></p>
+                    <p>Electrical Engineerint Department</p>
+                    <p>Computer Science Departament</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="introduction">
+        <p>Pesquisador em um projeto CNPQ pelo departamento de Ciência da Computação, projeto no qual sou responsável pela elaboração de um dispositivo eletrônico que ajude a incluir surdocegos nos sistemas de ensino, especificamente disciplinas que utilizem
+            da abordagem RPG. Trainee no CIS(Computer Intelligence Society), grupo de AI da Unb onde aprendo de maneira aprofundada sobre diversos temas na área de Inteligência Artificial. Programador competitivo, participo de competições de programação
+            nas quais o foco são idealizar e implementar soluções eficazes e precisas para problemas de alta complexidade em um curto intervalo de tempo. Diretor Esportivo na Atlética, cargo pelo qual posso colaborar com a integração do corpo estudantil
+            e intensificar a identificação da comunidade de estudantes com o próprio curso , através de esportes e eventos.
+        </p>
+        <br>
+        <hr class="doubled_hr">
+    </div>
+    <div id="information_body">
+        <h2>Projects</h2>
+        <ul>
+            <li>Embeded System Researcher.</li>
+            <li><a href="https://en.wikipedia.org/wiki/Competitive_programming#:~:text=Competitive%20programming%20is%20a%20mind,referred%20to%20as%20sport%20programmers.">Competitive Programming.</a></li>
+            <ul>
+                <li>In <a href="https://pt.wikipedia.org/wiki/C%2B%2B">C++.</a></li>
+                <li>Mainly in <a href="https://codeforces.com/">codeforces.</a></li>
+            </ul>
+            <li>Member of a AI student community.</li>
+            <li>Sports Director of the Athletic Community.</li>
+        </ul>
+        <hr class="dotted">
+        <h2>Hobbies</h2>
+        <ol type='i'>
+            <li>Football.</li>
+            <li>Languages.</li>
+            <li>Movies</li>
+        </ol>
+        <hr class="dotted">
+        <h2>University and Schools</h2>
+        <table border='2'>
+            <thead>
+                <!-- These THEAD,TBODY, TFOOT are not mandatory, but makes it easir to later modifications, such as CSS-->
+                <tr>
+                    <th>Period</th>
+                    <th>Institution</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2017</td>
+                    <td>Sigma High School</td>
+                </tr>
+                <tr>
+                    <td>2018-2019</td>
+                    <td>Leonardo da Vinci High School</td>
+                </tr>
+                <tr>
+                    <td>2019-2024</td>
+                    <td>University of Brasilia</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+        <hr class="dotted">
+        <h2>Skills</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <!--Nested 1 table begin-->
+                        <table cellspacing="10">
+                            <tbody>
+                                <tr>
+                                    <td>python</td>
+                                    <td>✰✰✰✰✰</td>
+                                </tr>
+                                <tr>
+                                    <td>C++</td>
+                                    <td>✰✰✰✰✰</td>
+                                </tr>
+                                <tr>
+                                    <td>machine learning</td>
+                                    <td>✰✰✰✰✰</td>
+                                </tr>
+                                <tr>
+                                    <td>deep learning</td>
+                                    <td>✰✰✰</td>
+                                </tr>
+                                <tr>
+                                    <td>leadership</td>
+                                    <td>✰✰✰✰✰</td>
+                                </tr>
+                                <tr>
+                                    <td>competitive programming</td>
+                                    <td>✰✰✰✰✰</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--Nested table 1 end-->
+                    </td>
+                    <td>
+                        <table cellspacing="10">
+                            <!--Nested 2 table begin-->
+                            <tbody>
+                                <tr>
+                                    <td>C</td>
+                                    <td>✰✰✰✰</td>
+                                </tr>
+                                <tr>
+                                    <td>Problem Solving</td>
+                                    <td>✰✰✰✰✰</td>
+                                </tr>
+                                <tr>
+                                    <td>Group Working</td>
+                                    <td>✰✰✰✰✰</td>
+                                </tr>
+                                <tr>
+                                    <td>HTML</td>
+                                    <td>✰✰✰✰</td>
+                                </tr>
+                                <tr>
+                                    <td>CSS</td>
+                                    <td>✰✰✰</td>
+                                </tr>
+                                <tr>
+                                    <td>JavaScript</td>
+                                    <td>✰✰</td>
+                                </tr>
+                            </tbody>
+                            <!--Nested 2 table end-->
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="bottom">
+        <br>
+        <hr class="doubled_hr">
+        <a href='languages.html'>Languages</a>
+        <a href="contact.html">Contact me</a>
+    </div>
+</body>
+
+</html>
