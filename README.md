@@ -1,2 +1,2 @@
 # STYLE_PERSONAL_SITE
-Personal site styled with CSS. Visit at https://pedrinhong.github.io/PERSONAL_SITE-STYLISED_1/
+Personal site styled with CSS. Visit it at https://pedrinhong.github.io/First_personal_website/
